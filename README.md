@@ -28,3 +28,5 @@ Components:
     - IMAP server: expose local mailbox via IMAP
     - email web application: James-HUPA will do this in GWT
 - GWT for web GUI. Problem: what if we don't like GWT anymore?
+- FTP? probably not.
+- UPnP media server? UPnP remote? What about multiple users? Proxy will not make sense here.
