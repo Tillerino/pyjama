@@ -9,7 +9,9 @@ Targets:
 - zip, move to other box, unzip, run
 - modular, abstract: Instead of maintaining components forever, they should communicate through well-defined interfaces and should be easy to replace. (Why GWT then?)
 - configure if you want. reasonable defaults, add configurability when needed.
-- secure. outside and inside.
+- secure. outside and inside. build like operating system:
+    - require codebase or subject domain for repository operations. proper handling of authentication should be a good foundation.
+    - allow plugging of custom repositories or file systems into repository.
 - handle data with care. make backups easy and automatic if possible.
 - can act as proxy: provide every service that is used.
     - mount WebDAV into local JCR and expose via WebDAV
